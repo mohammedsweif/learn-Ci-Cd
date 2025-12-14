@@ -1,7 +1,7 @@
 on:
-  push:
+  pull_request:
 jobs:
-  job_mohammed_forlearn_after_push:
+  job_mohammed_forlearn_after_pull_request:
     runs-on: ubuntu-latest
     steps:
       - name: checkout_code_first_step
@@ -16,6 +16,8 @@ jobs:
         run: dotnet restore
 
       - name: build-application
-        run: dotnet build --no-restore
+        run : dotnet build --no-restore
+
+      - run : echo "Hello from Mohammed Forlearn"
 
        
