@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnCiCd", "LearnCiCd\LearnCiCd.csproj", "{282982AD-4A80-4DF6-8313-F085D107CBDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{282982AD-4A80-4DF6-8313-F085D107CBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282982AD-4A80-4DF6-8313-F085D107CBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282982AD-4A80-4DF6-8313-F085D107CBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282982AD-4A80-4DF6-8313-F085D107CBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22E5585F-C99E-47A0-863D-A4B5F2CBC901}
+	EndGlobalSection
+EndGlobal
