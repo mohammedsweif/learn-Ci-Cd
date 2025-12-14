@@ -1,0 +1,21 @@
+on:
+  push:
+jobs:
+  job_mohammed_forlearn_after_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout_code_first_step
+        uses: actions/checkout@v5
+
+      - name: restore_dotnet_second_step
+        uses: actions/setup-dotnet@v5
+        with:         
+          dotnet-version: '9.0.x'
+
+      - name: restore-packages
+        run: dotnet restore
+
+      - name: build-application
+        run: dotnet build --no-restore
+
+       
